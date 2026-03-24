@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Tailwind Page</title>
+    <link href="./output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-white font-[Poppins]">
+    <section class="w-full">
+      <div class="grid mt-20 grid-cols-3 grid-rows-2 h-[800px]">
+        <!-- Left column: spans both rows -->
+        <div class="relative row-span-2 overflow-hidden">
+          <!-- Placeholder image -->
+          <div
+            class="bg-cover bg-center overflow-hidden w-full h-full"
+            style="background-image: url(&quot;/images/init.jpg&quot;)"
+          ></div>
+
+          <!-- Optional dark overlay -->
+          <div class="absolute inset-0 bg-slate-900/25"></div>
+
+          <!-- Text -->
+          <div
+            class="absolute inset-0 flex items-end justify-center pb-30 text-center"
+          >
+            <div class="text-white max-w-[280px]">
+              <p
+                class="mb-2 text-[10px] uppercase tracking-[0.3em] opacity-80 underline"
+              >
+                GUIDES
+              </p>
+              <h2 class="text-5xl leading-tight font-medium">
+                Perfect<br />Itineraries
+              </h2>
+              <p class="mt-4 text-sm leading-6 text-white/80">
+                Perfect itineraries for your next adventure in the Adriatic.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Middle top -->
+        <div class="relative overflow-hidden bg-[#142a63]">
+          <div
+            class="absolute inset-0 flex items-center justify-center p-8 text-center"
+          >
+            <div class="max-w-[280px] text-white">
+              <p
+                class="mb-3 text-[10px] uppercase tracking-[0.3em] opacity-80 underline"
+              >
+                GUIDES
+              </p>
+              <h2 class="text-5xl leading-tight font-medium">
+                Dalmatia Highlights
+              </h2>
+              <p class="mt-4 text-sm leading-6 text-white/80">
+                The inside scoop on where’s hot to trot throughout the islands.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right top -->
+        <div
+          class="bg-cover bg-center overflow-hidden"
+          style="background-image: url(&quot;/images/Jelsa-large.jpg&quot;)"
+        ></div>
+
+        <!-- Middle bottom -->
+        <div
+          class="bg-cover bg-center overflow-hidden"
+          style="background-image: url(&quot;/images/croVilla-large.jpg&quot;)"
+        ></div>
+
+        <!-- Right bottom -->
+        <div class="relative overflow-hidden bg-[#142a63]">
+          <div
+            class="absolute inset-0 flex items-center justify-center p-8 text-center"
+          >
+            <div class="max-w-[280px] text-white">
+              <p
+                class="mb-3 text-[10px] uppercase tracking-[0.3em] opacity-80 underline"
+              >
+                SERVICES
+              </p>
+              <h2 class="text-5xl leading-tight font-medium">
+                Sail &amp; Stay<br />Villas
+              </h2>
+              <p class="mt-4 text-sm leading-6 text-white/80">
+                Rediscover your land legs in perfect surroundings.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
